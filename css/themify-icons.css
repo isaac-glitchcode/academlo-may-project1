@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'themify';
+    src: url('../assets/fonts/themify.woff?-fvbane') format('woff');
+    font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"]{
+    font-family: 'themify';
+	font-style: normal;
+}
+/* 
+* Icons
+*/
+
+/*
+ *Menu Bar Icons
+*/
+.icon-home:before{
+	content: "\e69b";
+}
+.icon-grid:before{
+	content: "\e669";
+}
+.icon-file:before{
+	content: "\e6a3";
+}
+.icon-list:before{
+	content: "\e703";
+}
+.icon-mail:before{
+	content: "\e75a";
+}
+
+ /*
+  *Cards Icons
+  */
+.icon-gear:before {
+	content: "\e60f";
+}
+.icon-flag:before {
+	content: "\e63a";
+}
+.icon-shield:before {
+	content: "\e67b";
+}
+.icon-package:before {
+	content: "\e687";
+}

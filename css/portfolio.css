@@ -1,0 +1,76 @@
+/* 
+ * Portfolio
+ */
+
+.section{
+    padding-top:160px;
+}
+.text h2{
+    line-height: 4em;
+    letter-spacing: .3em;
+    font-weight: normal;
+}
+.text p{
+    line-height: 2em;
+    font-weight: lighter;
+}
+.list{
+    padding: 60px 35%;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.list ul>li{
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 14px;
+    position: relative;
+    letter-spacing: .1rem;
+}
+.list li:before{
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 7px;
+    margin-top: 7px;
+    background-color: rgba(172, 167, 167,.4);
+}
+
+/* GRID */
+.box{
+    position: relative;
+}
+.grid{
+    margin-right: 25px;
+}
+.margin-top{
+    margin-top: -240px;
+}
+.margin-top-170{
+    margin-top:-130px;
+}
+.margin-top-30px{
+    margin-top:30px;
+}
+.media-content{
+    position: relative;
+    margin: -40px 0 0 0;
+}
+
+/* BUTTON */
+.btn-load{
+    margin: 90px;
+
+}
+.btn-load a{
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+}
+.btn-load:hover a{
+    background-color: #343a40;
+}

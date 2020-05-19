@@ -1,0 +1,26 @@
+.bg-black{
+    background-color: #010101;
+}
+.bg-black-light{
+   background-color: #1d1d1d;
+}
+.footer{
+    padding:  0 0 100px 100px;
+}
+.info-about{
+    color: #4d4d4d;
+}
+.info-about h5, .info-contact h5{
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+.info-about p{
+    line-height: 40px;
+}
+.copy{
+    padding: 10px;
+}
+.link-social>a{
+    margin-left: 10px;
+    color: #fff;
+}

@@ -1,0 +1,22 @@
+.blog-card{
+    padding: 50px 200px;
+}
+.reverse{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.card-body{
+    margin-top: 20%;
+    letter-spacing: .1rem;
+}
+.card-body h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+.card-body h6{
+    font-weight: lighter;
+    font-size: 10px;
+}
+.card-body h4, h6, p, a{
+    margin-bottom: 1.5em;
+}

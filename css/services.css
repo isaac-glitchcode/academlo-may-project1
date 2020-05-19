@@ -1,0 +1,39 @@
+/* 
+ * Services
+ */
+
+.services .cards{
+    margin: -160px -15px 0 -15px;
+    justify-content: space-around;
+}
+.services .cards .card{
+    position: relative;
+    width: 23%;
+    text-align: center;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, .05);
+    border-radius: 10px;
+    transition: all ease .4s;
+    color: #000;
+    background:#ffffff; 
+}
+.services .cards .card .content-card{
+    padding: 65px 15px 60px 15px;
+}
+.services .cards .card:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.services .cards .card .content-card i{
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;  
+}
+.services .cards .card .content-card h4{
+    margin-bottom: 20px;
+    font-weight: normal;
+    line-height: 1.9em;
+    letter-spacing: .1rem;
+}
+.services .cards .card .content-card p{
+    line-height: 1.9em;
+}

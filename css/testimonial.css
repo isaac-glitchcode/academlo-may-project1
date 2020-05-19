@@ -1,0 +1,51 @@
+.bg-gray-light{
+    background-color: #f8f8f8;;
+}
+.margin-b{
+    margin-bottom: 70px;
+}
+.testimonial{
+    padding: 120px;
+}
+.t-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.t-card{
+    border-radius: 5px;
+    padding: 40px 30px;
+    background-color: #fff;
+}
+.t-card .b-text{
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: .1rem;
+    margin-bottom: 20px;
+}
+.t-card .f-text{
+    display: flex;
+    letter-spacing: .1rem;
+}
+.t-card .f-text h5{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.t-card .f-text h6{
+    font-weight: lighter;
+}
+
+/* BUTTONS */
+
+.btns{
+    margin-top: 20px;
+    text-align: center;
+}
+.btns ul>li>button{
+    width: 15px;
+    height: 15px;
+    margin: .5rem;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
+    /* background-color: #343a40; */
+    cursor: pointer;
+}
