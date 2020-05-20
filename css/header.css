@@ -26,6 +26,9 @@ ul >li{
 .menu ul li >ul{
     display: none;
 }
+.menu ul li >ul li ul>li{
+    display: none;
+}
 .text-align{
     text-align: center;
 }
@@ -53,6 +56,21 @@ ul >li{
 .menu >ul>li>a:not(:only-child):after{
     padding:0 5px;
 } 
+.menu >ul>li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    margin-top: 3px;
+    font-size: 18px;
+    line-height: 2rem;
+}
+.menu ul li >ul li ul:hover li{
+    position: absolute;
+    background-color: #fff;
+    /* margin-top: 53px; */
+    font-size: 18px;
+    line-height: 2rem;
+}
 
 
 /*Banner  */
