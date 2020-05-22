@@ -1,0 +1,34 @@
+/* TEST */
+.bg-red{
+    background-color: red;
+}
+.bg-g{
+    background-color: green;
+}
+.bg-b{
+    background-color: blue;
+}
+.bg-y{
+    background-color: yellow;
+}
+.bg-p{
+    background-color: purple;
+}
+
+.text-align{
+    text-align: center;
+}
+.align-items{
+    display:flex;
+    justify-content: space-around;
+}
+.align-self{
+    text-align: center;
+}
+.relative{
+    position:relative;
+}
+.absolute{
+    position:absolute;
+}
+

@@ -29,17 +29,10 @@ ul >li{
 .menu ul li >ul li ul>li{
     display: none;
 }
-.text-align{
-    text-align: center;
-}
 .align-content{
     display: flex;
     padding: 10px 0;
     align-items: center;
-}
-.align-items{
-    display:flex;
-    justify-content: center;
 }
 .menu >ul>li>a{
     letter-spacing: 1px;
@@ -95,4 +88,8 @@ ul >li{
     font-size: 1.3em;
     font-weight: lighter;
     letter-spacing: .3rem;
+}
+
+@media (max-width:1200px){
+    
 }
